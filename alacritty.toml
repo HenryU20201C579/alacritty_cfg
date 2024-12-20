@@ -1,0 +1,37 @@
+[colors]
+  [colors.primary]
+    background = "0x000000" # Fondo negro
+    foreground = "0xffffff" # Texto principal en azul claro
+
+  [colors.normal]
+    black = "0x000000"   # Negro
+    red = "0xff8800"     # Naranja brillante (como en segmentos de Git y AWS)
+    green = "0x94ffa2"   # Verde claro (como en estadísticas de CPU y RAM)
+    yellow = "0xffff00"  # Amarillo
+    blue = "0x7eb8da"    # Azul claro (como en tiempo y ruta)
+    magenta = "0xffffff" # Blanco (usado en plantillas para destacar texto)
+    cyan = "0x00ffff"    # Cian
+    white = "0xffffff"   # Blanco brillante
+
+  [colors.bright]
+    black = "0x777777"   # Gris oscuro
+    red = "0xffaa55"     # Naranja más claro
+    green = "0xaaffaa"   # Verde claro más brillante
+    yellow = "0xffffaa"  # Amarillo claro
+    blue = "0x9ed8f3"    # Azul claro más brillante
+    magenta = "0xffffff" # Blanco brillante
+    cyan = "0x55ffff"    # Cian claro
+    white = "0xffffff"   # Blanco brillante
+
+  [colors.cursor]
+    text = "0x000000"   # Color del texto del cursor
+    cursor = "0x55ffff" # Color del cursor azul claro
+
+  [colors.selection]
+    text = "0x000000"       # Color del texto seleccionado
+    background = "0x55ffff" # Fondo de la selección en azul claro
+
+[font]
+  normal = { family = "Hack Nerd Font", style = "Regular" } # Fuente principal
+  size = 12.0 # Tamaño de fuente
+
